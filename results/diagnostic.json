@@ -1,0 +1,44 @@
+{
+  "kind": "Synthetic portfolio; composite is not a validated risk measure",
+  "position_values": [
+    8000,
+    1750,
+    250
+  ],
+  "composite": 11.3,
+  "factors": [
+    {
+      "factor": "concentration",
+      "score": 50.7,
+      "meta": {
+        "hhi": 0.671
+      }
+    },
+    {
+      "factor": "market",
+      "score": 0.0,
+      "meta": {
+        "status": "stub"
+      }
+    },
+    {
+      "factor": "liquidity",
+      "score": 0.0,
+      "meta": {
+        "status": "stub"
+      }
+    },
+    {
+      "factor": "contract",
+      "score": 0.0,
+      "meta": {
+        "status": "stub",
+        "unverified": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    }
+  ]
+}
