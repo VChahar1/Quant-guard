@@ -47,7 +47,8 @@ def _apply(verdict, text):
     return text
 
 
-def main():
+def main() -> None:
+    """Run the six synthetic guard and portfolio-scoring checks."""
     out_pipe = GuardPipeline([DisclaimerChecker(), PIIChecker(), GroundingChecker()])
     ctx_none = RequestContext("u1", "s1")
     passed = 0

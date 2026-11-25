@@ -63,7 +63,8 @@ SCENARIOS = [
 ]
 
 
-def main():
+def main() -> None:
+    """Print guard verdicts for supplied text or the included sample scenarios."""
     args = sys.argv[1:]
     if args:
         answer = args[0]
